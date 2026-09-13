@@ -1,0 +1,32 @@
+# Compilacao (as duas versoes)
+build/
+*.uf2
+*.elf
+*.hex
+*.bin
+*.eep
+
+# Simulador
+*.vcd
+
+# KiCad: backups, autosave, travas e caches
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+_autosave-*
+*.lck
+fp-info-cache
+*.kicad_prl
+erc.rpt
+*.net
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Arquivos de trabalho locais que nao pertencem ao repositorio
+.claude/
+capturas vídeo original/
+módulos/
+projeto.txt

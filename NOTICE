@@ -1,0 +1,41 @@
+Cronometro Hot Wheels - 6 raias (RP2040 e Arduino)
+Copyright (C) 2026 Leonardo Roman da Rosa
+
+This project is dual-licensed.
+
+================================================================
+Software (firmware + ferramentas) -- GPL-3.0-or-later
+================================================================
+GNU General Public License, version 3 or (at your option) any later version.
+Full text: LICENSE
+SPDX-License-Identifier: GPL-3.0-or-later
+
+Covers:
+  cronometro-rasp-pico/src/**            firmware RP2040 (C)
+  cronometro-rasp-pico/CMakeLists.txt, cronometro-rasp-pico/pico_sdk_import.cmake
+  cronometro-arduino/cronometro-arduino.ino
+                                         firmware Arduino (C++)
+  tools/**                               geradores do diagrama de fiacao e dos
+                                         esquemas KiCad
+  cronometro-*/tools/**                  geradores do circuito do simulador
+  cronometro-*/diagram.json, cronometro-*/wokwi.toml
+                                         circuito e configuracao do Wokwi
+  README.md, NOTAS.md e os demais documentos nao listados abaixo
+
+================================================================
+Hardware (esquematicos + documentacao de hardware) -- CERN-OHL-S-2.0
+================================================================
+CERN Open Hardware Licence Version 2 - Strongly Reciprocal.
+Full text: LICENSE-HARDWARE.txt
+SPDX-License-Identifier: CERN-OHL-S-2.0
+
+Covers:
+  cronometro-*/kicad/**                  projetos e esquematicos KiCad
+  cronometro-*/docs/esquema-kicad.svg, cronometro-*/docs/esquema-kicad.pdf
+                                         render dos esquematicos
+  cronometro-*/docs/fiacao-*.svg         diagramas de fiacao
+  cronometro-rasp-pico/docs/bom.md       lista de material e cuidados eletricos
+  cronometro-*/docs/pinout.md            pinagem
+
+Os scripts em tools/ sao software; os desenhos que eles produzem sao hardware
+e seguem a CERN-OHL-S-2.0 (os SVGs trazem o SPDX correspondente).

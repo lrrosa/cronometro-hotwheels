@@ -1,0 +1,834 @@
+{
+  "version": 1,
+  "author": "Cronometro Hot Wheels 6 pistas (Arduino)",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-text",
+      "id": "lbl1",
+      "top": -62,
+      "left": 45,
+      "attrs": {
+        "text": "PISTA 1"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "lbl2",
+      "top": -62,
+      "left": 305,
+      "attrs": {
+        "text": "PISTA 2"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "lbl3",
+      "top": -62,
+      "left": 565,
+      "attrs": {
+        "text": "PISTA 3"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "lbl4",
+      "top": -62,
+      "left": 825,
+      "attrs": {
+        "text": "PISTA 4"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "lbl5",
+      "top": -62,
+      "left": 1085,
+      "attrs": {
+        "text": "PISTA 5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "lbl6",
+      "top": -62,
+      "left": 1345,
+      "attrs": {
+        "text": "PISTA 6"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d1",
+      "top": 0,
+      "left": 0,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d2",
+      "top": 0,
+      "left": 260,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d3",
+      "top": 0,
+      "left": 520,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d4",
+      "top": 0,
+      "left": 780,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d5",
+      "top": 0,
+      "left": 1040,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-tm1637-7segment",
+      "id": "d6",
+      "top": 0,
+      "left": 1300,
+      "attrs": {
+        "color": "green"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl1",
+      "top": 800,
+      "left": 8,
+      "attrs": {
+        "text": "TCRT5000 PISTA 1  (A0)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s1",
+      "top": 832,
+      "left": 11,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl2",
+      "top": 800,
+      "left": 268,
+      "attrs": {
+        "text": "TCRT5000 PISTA 2  (A1)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s2",
+      "top": 832,
+      "left": 271,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl3",
+      "top": 800,
+      "left": 528,
+      "attrs": {
+        "text": "TCRT5000 PISTA 3  (A2)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s3",
+      "top": 832,
+      "left": 531,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl4",
+      "top": 800,
+      "left": 788,
+      "attrs": {
+        "text": "TCRT5000 PISTA 4  (A3)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s4",
+      "top": 832,
+      "left": 791,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl5",
+      "top": 800,
+      "left": 1048,
+      "attrs": {
+        "text": "TCRT5000 PISTA 5  (A4)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s5",
+      "top": 832,
+      "left": 1051,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "blbl6",
+      "top": 800,
+      "left": 1308,
+      "attrs": {
+        "text": "TCRT5000 PISTA 6  (A5)"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "s6",
+      "top": 832,
+      "left": 1311,
+      "attrs": {
+        "lux": "0",
+        "threshold": "2.5"
+      }
+    },
+    {
+      "type": "wokwi-arduino-uno",
+      "id": "uno",
+      "top": 360,
+      "left": 380,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-slide-switch",
+      "id": "porta",
+      "top": 390,
+      "left": 700,
+      "attrs": {
+        "value": ""
+      }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 490,
+      "left": 700,
+      "attrs": {
+        "color": "blue",
+        "label": "TESTE",
+        "key": "d"
+      }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 390,
+      "left": 900,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-text",
+      "id": "t_porta",
+      "top": 445,
+      "left": 690,
+      "attrs": {
+        "text": "PORTA DE LARGADA (D2)\nmetade DIREITA = abre, larga"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "t_btn",
+      "top": 560,
+      "left": 680,
+      "attrs": {
+        "text": "tecla D: toque = rearma, segurar 1 s = demo"
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "t_ajuda",
+      "top": 0,
+      "left": 1560,
+      "attrs": {
+        "text": "COMO USAR\n\n1) Ver uma corrida inteira:\n   segure a tecla D por 1 segundo.\n\n2) Corrida manual:\n   - PORTA para a direita (larga)\n   - clique num sensor e SUBA a luz:\n     e o carrinho refletindo\n   - a ordem dos cliques e a ordem\n     de chegada\n   - quem ficar no escuro vira dnF\n\n3) Rearmar: PORTA para a esquerda e\n   sensores de volta ao escuro.\n\nTempos tambem na aba Serial Monitor\n(115200). 4 digitos = milissegundos:\n3721 le-se 3,721 s."
+      }
+    },
+    {
+      "type": "wokwi-text",
+      "id": "t_ir",
+      "top": 380,
+      "left": 1560,
+      "attrs": {
+        "text": "SOBRE OS SENSORES\n\nCada pista tem um modulo TCRT5000:\nVCC, GND, D0 e A0. So o D0 e ligado;\no A0 fica solto.\n\nOs seis D0 TEM que ficar em A0..A5:\nsao a PORTC inteira, e so assim\ncabem numa unica interrupcao de\nmudanca de pino (PCINT1). O 328P so\ntem duas interrupcoes externas.\n\nO Wokwi nao tem TCRT5000. A peca de\nluz usada aqui tem o MESMO header e\na MESMA logica:\n\n  escuro = sem carro  -> D0 = 1\n  claro  = carro      -> D0 = 0\n\nPara passar um carrinho: clique no\nsensor e SUBA a luz."
+      }
+    }
+  ],
+  "connections": [
+    [
+      "uno:3",
+      "d1:CLK",
+      "gold",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d1:CLK",
+      "d2:CLK",
+      "gold",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d2:CLK",
+      "d3:CLK",
+      "gold",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d3:CLK",
+      "d4:CLK",
+      "gold",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d4:CLK",
+      "d5:CLK",
+      "gold",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d5:CLK",
+      "d6:CLK",
+      "gold",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "uno:4",
+      "d1:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v200"
+      ]
+    ],
+    [
+      "uno:5",
+      "d2:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v212"
+      ]
+    ],
+    [
+      "uno:6",
+      "d3:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v224"
+      ]
+    ],
+    [
+      "uno:7",
+      "d4:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v236"
+      ]
+    ],
+    [
+      "uno:8",
+      "d5:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v248"
+      ]
+    ],
+    [
+      "uno:9",
+      "d6:DIO",
+      "green",
+      [
+        "v-90",
+        "*",
+        "h-20",
+        "v260"
+      ]
+    ],
+    [
+      "uno:5V",
+      "d1:VCC",
+      "red",
+      [
+        "v60",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "uno:GND.2",
+      "d1:GND",
+      "black",
+      [
+        "v60",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d1:VCC",
+      "d2:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d1:GND",
+      "d2:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d2:VCC",
+      "d3:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d2:GND",
+      "d3:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d3:VCC",
+      "d4:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d3:GND",
+      "d4:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d4:VCC",
+      "d5:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d4:GND",
+      "d5:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d5:VCC",
+      "d6:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d5:GND",
+      "d6:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-20",
+        "v120"
+      ]
+    ],
+    [
+      "d1:VCC",
+      "s1:VCC",
+      "red",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "d1:GND",
+      "s1:GND",
+      "black",
+      [
+        "h-20",
+        "v120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s1:VCC",
+      "s2:VCC",
+      "red",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s1:GND",
+      "s2:GND",
+      "black",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s2:VCC",
+      "s3:VCC",
+      "red",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s2:GND",
+      "s3:GND",
+      "black",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s3:VCC",
+      "s4:VCC",
+      "red",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s3:GND",
+      "s4:GND",
+      "black",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s4:VCC",
+      "s5:VCC",
+      "red",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s4:GND",
+      "s5:GND",
+      "black",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s5:VCC",
+      "s6:VCC",
+      "red",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "s5:GND",
+      "s6:GND",
+      "black",
+      [
+        "h-35",
+        "v-120",
+        "*",
+        "h-35",
+        "v-120"
+      ]
+    ],
+    [
+      "uno:A0",
+      "s1:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-180"
+      ]
+    ],
+    [
+      "uno:A1",
+      "s2:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-192"
+      ]
+    ],
+    [
+      "uno:A2",
+      "s3:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-204"
+      ]
+    ],
+    [
+      "uno:A3",
+      "s4:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-216"
+      ]
+    ],
+    [
+      "uno:A4",
+      "s5:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-228"
+      ]
+    ],
+    [
+      "uno:A5",
+      "s6:DO",
+      "blue",
+      [
+        "v60",
+        "*",
+        "h-35",
+        "v-240"
+      ]
+    ],
+    [
+      "uno:2",
+      "porta:2",
+      "cyan",
+      [
+        "v-20"
+      ]
+    ],
+    [
+      "uno:GND.1",
+      "porta:1",
+      "black",
+      [
+        "v-20"
+      ]
+    ],
+    [
+      "porta:1",
+      "btn1:2.r",
+      "black",
+      []
+    ],
+    [
+      "btn1:2.r",
+      "bz1:2",
+      "black",
+      []
+    ],
+    [
+      "uno:11",
+      "btn1:1.l",
+      "orange",
+      [
+        "v-20"
+      ]
+    ],
+    [
+      "uno:10",
+      "bz1:1",
+      "purple",
+      [
+        "v-20"
+      ]
+    ]
+  ]
+}

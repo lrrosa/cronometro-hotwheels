@@ -1,0 +1,10 @@
+# So e necessario se voce for compilar na sua maquina e usar a extensao
+# "Wokwi for VS Code". Para rodar sem instalar nada, use o wokwi.com --
+# ver README.md.
+#
+#   arduino-cli core install arduino:avr
+#   arduino-cli compile -b arduino:avr:uno --output-dir build .
+[wokwi]
+version = 1
+firmware = 'build/cronometro-arduino.ino.hex'
+elf = 'build/cronometro-arduino.ino.elf'

@@ -1,0 +1,8 @@
+# Configuracao da extensao "Wokwi for VS Code".
+# 1. Compile o firmware (gera build/cronometro-rasp-pico.uf2 e .elf).
+# 2. Instale a extensao "Wokwi for VS Code" e faca login (gratuito).
+# 3. Abra diagram.json e rode "Wokwi: Start Simulator".
+[wokwi]
+version = 1
+firmware = 'build/cronometro-rasp-pico.uf2'
+elf = 'build/cronometro-rasp-pico.elf'

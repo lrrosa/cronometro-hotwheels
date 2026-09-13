@@ -1,0 +1,393 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1420" viewBox="0 0 1780 1420">
+<!-- SPDX-License-Identifier: CERN-OHL-S-2.0 -->
+<!-- Copyright (C) 2026 Leonardo Roman da Rosa -->
+<rect x="0" y="0" width="1780" height="1420" rx="0" fill="#f6f6f2" stroke="#f6f6f2" stroke-width="0"/>
+<text x="40" y="52" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="27" fill="#1a1a1a" text-anchor="start" font-weight="bold">CRONOMETRO HOT WHEELS - 6 PISTAS</text>
+<text x="40" y="80" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="16" fill="#6b6b6b" text-anchor="start" font-weight="normal">Ligacoes para Arduino UNO  /  Nano  (ATmega328P)   -   tudo em 5 V</text>
+<text x="1740" y="52" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#6b6b6b" text-anchor="end" font-weight="normal">diagrama de fiacao</text>
+<text x="1740" y="74" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="end" font-weight="normal">gerado por tools/gen_esquema_svg.py</text>
+<text x="1740" y="94" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="end" font-weight="normal">desenho sob CERN-OHL-S-2.0</text>
+<path d="M74,330 L74,866" fill="none" stroke="#cc2222" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100,360 L100,896" fill="none" stroke="#1a1a1a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M74,330 L1650,330" fill="none" stroke="#cc2222" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="335" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="13" fill="#cc2222" text-anchor="end" font-weight="bold">5V</text>
+<path d="M100,360 L1650,360" fill="none" stroke="#1a1a1a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="365" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="bold">GND</text>
+<path d="M74,866 L1650,866" fill="none" stroke="#cc2222" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="871" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="13" fill="#cc2222" text-anchor="end" font-weight="bold">5V</text>
+<path d="M100,896 L1650,896" fill="none" stroke="#1a1a1a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="66" y="901" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="13" fill="#1a1a1a" text-anchor="end" font-weight="bold">GND</text>
+<circle cx="74" cy="330" r="4.2" fill="#cc2222"/>
+<circle cx="74" cy="866" r="4.2" fill="#cc2222"/>
+<circle cx="100" cy="360" r="4.2" fill="#1a1a1a"/>
+<circle cx="100" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M124,300 L1650,300" fill="none" stroke="#c98a00" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="130" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="235.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 1</text>
+<text x="235.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="176" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="188" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="208" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="220" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="240" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="252" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="272" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="284" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="155.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="160" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="183.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="188" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="211.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="216" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="239.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="244" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M160,240 L160,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M244,240 L244,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="244" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M216,240 L216,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="216" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M188,240 L188,412 L400,412 L400,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="195" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D4</text>
+<rect x="392" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="497.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 2</text>
+<text x="497.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="438" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="450" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="470" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="482" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="502" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="514" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="534" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="546" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="417.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="422" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="445.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="450" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="473.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="478" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="501.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="506" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M422,240 L422,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="422" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M506,240 L506,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="506" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M478,240 L478,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="478" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M450,240 L450,432 L580,432 L580,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="457" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D5</text>
+<rect x="654" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="759.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 3</text>
+<text x="759.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="700" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="712" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="732" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="744" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="764" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="776" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="796" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="808" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="679.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="684" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="707.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="712" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="735.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="740" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="763.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="768" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M684,240 L684,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="684" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M768,240 L768,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="768" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M740,240 L740,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="740" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M712,240 L712,412 L760,412 L760,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="719" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D6</text>
+<rect x="916" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1021.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 4</text>
+<text x="1021.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="962" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="974" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="994" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1006" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1026" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1038" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1058" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1070" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="941.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="946" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="969.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="974" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="997.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1002" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="1025.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1030" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M946,240 L946,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="946" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M1030,240 L1030,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1030" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M1002,240 L1002,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1002" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M974,240 L974,432 L940,432 L940,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="981" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D7</text>
+<rect x="1178" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1283.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 5</text>
+<text x="1283.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="1224" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1236" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1256" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1268" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1288" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1300" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1320" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1332" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1203.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1208" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="1231.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1236" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="1259.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1264" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="1287.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1292" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M1208,240 L1208,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1208" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M1292,240 L1292,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1292" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M1264,240 L1264,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1264" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M1236,240 L1236,412 L1120,412 L1120,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1243" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D8</text>
+<rect x="1440" y="122" width="210" height="118" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1545.0" y="148" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 6</text>
+<text x="1545.0" y="167" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">display TM1637</text>
+<rect x="1486" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1498" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1518" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1530" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1550" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1562" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1582" y="180" width="24" height="40" rx="3" fill="#111318" stroke="#111318" stroke-width="1"/>
+<text x="1594" y="209" font-family="DejaVu Sans Mono, Consolas, monospace" font-size="27" fill="#37d67a" text-anchor="middle" font-weight="normal">8</text>
+<rect x="1465.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1470" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#c98a00" text-anchor="middle" font-weight="bold">CLK</text>
+<rect x="1493.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1498" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#218c4f" text-anchor="middle" font-weight="bold">DIO</text>
+<rect x="1521.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1526" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="1549.5" y="235.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1554" y="231" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">5V</text>
+<path d="M1470,240 L1470,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1470" cy="300" r="4.2" fill="#c98a00"/>
+<path d="M1554,240 L1554,330" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1554" cy="330" r="4.2" fill="#cc2222"/>
+<path d="M1526,240 L1526,360" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1526" cy="360" r="4.2" fill="#1a1a1a"/>
+<path d="M1498,240 L1498,432 L1280,432 L1280,540" fill="none" stroke="#218c4f" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1505" y="394" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#218c4f" text-anchor="start" font-weight="bold">D9</text>
+<path d="M300,562 L124,562 L124,300" fill="none" stroke="#c98a00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="124" cy="300" r="4.2" fill="#c98a00"/>
+<text x="134" y="554" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#c98a00" text-anchor="start" font-weight="bold">CLK  D3</text>
+<text x="1660" y="304" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#c98a00" text-anchor="start" font-weight="bold">CLK  D3</text>
+<text x="1660" y="334" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#cc2222" text-anchor="start" font-weight="bold">5V</text>
+<text x="1660" y="364" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">GND</text>
+<text x="1660" y="870" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#cc2222" text-anchor="start" font-weight="bold">5V</text>
+<text x="1660" y="900" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">GND</text>
+<rect x="130" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="235.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 1</text>
+<text x="235.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="155.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="160" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="183.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="188" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="211.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="216" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="239.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="244" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="244" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M160,940 L160,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="160" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M188,940 L188,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="188" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M216,940 L216,780 L400,780 L400,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="223" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A0</text>
+<rect x="392" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="497.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 2</text>
+<text x="497.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="417.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="422" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="445.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="450" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="473.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="478" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="501.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="506" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="506" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M422,940 L422,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="422" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M450,940 L450,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="450" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M478,940 L478,800 L580,800 L580,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="485" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A1</text>
+<rect x="654" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="759.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 3</text>
+<text x="759.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="679.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="684" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="707.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="712" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="735.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="740" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="763.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="768" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="768" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M684,940 L684,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="684" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M712,940 L712,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="712" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M740,940 L740,780 L760,780 L760,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="747" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A2</text>
+<rect x="916" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1021.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 4</text>
+<text x="1021.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="941.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="946" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="969.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="974" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="997.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1002" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="1025.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1030" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="1030" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M946,940 L946,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="946" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M974,940 L974,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="974" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M1002,940 L1002,800 L940,800 L940,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1009" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A3</text>
+<rect x="1178" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1283.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 5</text>
+<text x="1283.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="1203.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1208" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="1231.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1236" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="1259.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1264" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="1287.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1292" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="1292" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M1208,940 L1208,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1208" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M1236,940 L1236,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1236" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M1264,940 L1264,780 L1120,780 L1120,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1271" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A4</text>
+<rect x="1440" y="940" width="210" height="100" rx="6" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1545.0" y="1000" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="15" fill="#1a1a1a" text-anchor="middle" font-weight="bold">PISTA 6</text>
+<text x="1545.0" y="1020" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">sensor TCRT5000</text>
+<rect x="1465.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1470" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#cc2222" text-anchor="middle" font-weight="bold">VCC</text>
+<rect x="1493.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1498" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1a1a1a" text-anchor="middle" font-weight="bold">GND</text>
+<rect x="1521.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1526" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#1f6fd0" text-anchor="middle" font-weight="bold">D0</text>
+<rect x="1549.5" y="935.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#3a3a3a" stroke-width="1.6"/>
+<text x="1554" y="961" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="10" fill="#6b6b6b" text-anchor="middle" font-weight="bold">A0</text>
+<text x="1554" y="974" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="9.5" fill="#6b6b6b" text-anchor="middle" font-weight="normal">solto</text>
+<path d="M1470,940 L1470,866" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1470" cy="866" r="4.2" fill="#cc2222"/>
+<path d="M1498,940 L1498,896" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1498" cy="896" r="4.2" fill="#1a1a1a"/>
+<path d="M1526,940 L1526,800 L1280,800 L1280,700" fill="none" stroke="#1f6fd0" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1533" y="852" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f6fd0" text-anchor="start" font-weight="bold">A5</text>
+<rect x="300" y="540" width="1000" height="160" rx="10" fill="#e8f0fa" stroke="#1f4e79" stroke-width="2.4"/>
+<text x="800.0" y="606" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="22" fill="#1f4e79" text-anchor="middle" font-weight="bold">Arduino UNO  /  Nano  (ATmega328P)</text>
+<text x="800.0" y="632" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">os nomes dos pinos sao o que vale; a posicao do furo esta em docs/pinout.md</text>
+<text x="800.0" y="670" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="middle" font-weight="normal">log serial: USB, 115200</text>
+<rect x="395.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="400" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D4</text>
+<rect x="575.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="580" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D5</text>
+<rect x="755.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="760" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D6</text>
+<rect x="935.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="940" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D7</text>
+<rect x="1115.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="1120" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D8</text>
+<rect x="1275.5" y="535.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="1280" y="562" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">D9</text>
+<rect x="395.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="400" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A0</text>
+<rect x="575.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="580" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A1</text>
+<rect x="755.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="760" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A2</text>
+<rect x="935.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="940" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A3</text>
+<rect x="1115.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="1120" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A4</text>
+<rect x="1275.5" y="695.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="1280" y="688" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#1f4e79" text-anchor="middle" font-weight="bold">A5</text>
+<rect x="295.5" y="557.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="314" y="567" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#c98a00" text-anchor="start" font-weight="bold">D3</text>
+<rect x="295.5" y="583.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="314" y="593" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#cc2222" text-anchor="start" font-weight="bold">5V</text>
+<path d="M300,588 L106,588 A6,6 0 0 0 94,588 L74,588" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="74" cy="588" r="4.2" fill="#cc2222"/>
+<rect x="295.5" y="647.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<text x="314" y="657" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">GND (qualquer um dos tres)</text>
+<path d="M300,652 L100,652" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100" cy="652" r="4.2" fill="#1a1a1a"/>
+<rect x="1380" y="528" width="326" height="184" rx="8" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="1392" y="550" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#6b6b6b" text-anchor="start" font-weight="bold">PAINEL / CABINE</text>
+<rect x="1295.5" y="567.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<path d="M1300,572 L1398,572" fill="none" stroke="#008b8b" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1314" y="564" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#008b8b" text-anchor="start" font-weight="bold">D2</text>
+<circle cx="1398" cy="572" r="4.2" fill="#008b8b"/>
+<text x="1408" y="577" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">microswitch da PORTA</text>
+<rect x="1295.5" y="615.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<path d="M1300,620 L1398,620" fill="none" stroke="#d97706" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1314" y="612" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#d97706" text-anchor="start" font-weight="bold">D11</text>
+<circle cx="1398" cy="620" r="4.2" fill="#d97706"/>
+<text x="1408" y="625" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">botao TESTE (opcional)</text>
+<rect x="1295.5" y="663.5" width="9" height="9" rx="1.5" fill="#ffffff" stroke="#1f4e79" stroke-width="1.6"/>
+<path d="M1300,668 L1398,668" fill="none" stroke="#7a4fbf" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1314" y="660" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#7a4fbf" text-anchor="start" font-weight="bold">D10</text>
+<circle cx="1398" cy="668" r="4.2" fill="#7a4fbf"/>
+<text x="1408" y="673" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="start" font-weight="normal">buzzer passivo (opcional)</text>
+<text x="1392" y="698" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11" fill="#6b6b6b" text-anchor="start" font-weight="normal">o outro lado dos tres vai ao GND</text>
+<rect x="40" y="1092" width="1700" height="306" rx="8" fill="#ffffff" stroke="#6b6b6b" stroke-width="1.2"/>
+<text x="62" y="1122" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold">COMO LER</text>
+<path d="M62,1150 L104,1150" fill="none" stroke="#cc2222" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1155" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">5V - barramento de alimentacao</text>
+<path d="M62,1176 L104,1176" fill="none" stroke="#1a1a1a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1181" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">GND - barramento de terra</text>
+<path d="M62,1202 L104,1202" fill="none" stroke="#c98a00" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1207" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">CLK - um fio so, passa nos seis displays</text>
+<path d="M62,1228 L104,1228" fill="none" stroke="#218c4f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1233" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">DIO - um fio por display</text>
+<path d="M62,1254 L104,1254" fill="none" stroke="#1f6fd0" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1259" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">D0 - um fio por sensor</text>
+<circle cx="83" cy="1280" r="4.2" fill="#1a1a1a"/>
+<text x="114" y="1285" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">bolinha = fios ligados;  cruzamento sem bolinha = nao ligados</text>
+<path d="M83,1295 L83,1317" fill="none" stroke="#1a1a1a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M62,1306 L77,1306 A6,6 0 0 1 89,1306 L104,1306" fill="none" stroke="#cc2222" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="114" y="1311" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">arco = um fio passa por cima do outro, sem ligar</text>
+<text x="700" y="1122" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="14" fill="#1a1a1a" text-anchor="start" font-weight="bold">RESUMO DAS LIGACOES</text>
+<text x="700" y="1155" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">displays TM1637</text>
+<text x="880" y="1155" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">CLK D3 (comum) + DIO D4..D9, um por pista</text>
+<text x="700" y="1181" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">sensores TCRT5000</text>
+<text x="880" y="1181" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">D0 em A0..A5, um por pista. O A0 do modulo fica solto</text>
+<text x="700" y="1207" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">porta de largada</text>
+<text x="880" y="1207" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">D2, contato para GND</text>
+<text x="700" y="1233" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">botao TESTE</text>
+<text x="880" y="1233" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">D11, para GND (opcional)</text>
+<text x="700" y="1259" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">buzzer</text>
+<text x="880" y="1259" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">D10, para GND (opcional)</text>
+<text x="700" y="1285" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="bold">alimentacao</text>
+<text x="880" y="1285" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="12.5" fill="#1a1a1a" text-anchor="start" font-weight="normal">5V e GND (qualquer um dos tres)</text>
+<text x="700" y="1314" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#8a3b00" text-anchor="start" font-weight="normal">Os sensores TEM que ficar em A0..A5, nesta ordem: sao a PORTC</text>
+<text x="700" y="1333" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#8a3b00" text-anchor="start" font-weight="normal">inteira, e so assim os seis cabem numa unica interrupcao de mudanca</text>
+<text x="700" y="1352" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#8a3b00" text-anchor="start" font-weight="normal">de pino (PCINT1). O 328P so tem duas interrupcoes externas (D2/D3).</text>
+<text x="700" y="1371" font-family="DejaVu Sans, Verdana, Arial, sans-serif" font-size="11.5" fill="#8a3b00" text-anchor="start" font-weight="normal">A largada TEM que ser D2 (INT0). Sobram livres so D12 e D13.</text>
+</svg>
