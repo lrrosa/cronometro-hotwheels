@@ -57,7 +57,9 @@ const uint8_t PIN_BOTAO   = 11;  /* botao TESTE / REARMA (opcional)      */
  * armada, segurar um carrinho sobre o sensor da pista 1 por 2 s tem que
  * disparar a corrida demo (ver GESTO_DEMO_MS).
  */
+#ifndef SENSOR_NIVEL_CARRO      /* o release compila variantes com -D */
 #define SENSOR_NIVEL_CARRO 0
+#endif
 
 /*
  * Nivel do pino de largada com a porta ABERTA.
@@ -109,7 +111,9 @@ const uint8_t TM1637_BIT_US = 5;  /* meio periodo do clock bit-bang       */
  *
  * Acima de 10 s o separador acende nos dois casos -- ver dispTempo().
  */
+#ifndef DISPLAY_PONTO_DECIMAL   /* o release compila variantes com -D */
 #define DISPLAY_PONTO_DECIMAL 0
+#endif
 
 /* CORRIDA DEMO */
 const uint16_t DEMO_MS_MIN = 2400;

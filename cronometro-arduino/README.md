@@ -42,35 +42,26 @@ README de lá.
 
 ## Compilar e gravar na placa
 
-O **arduino-cli** já está instalado nesta máquina, em
-`C:\Users\Leonardo\arduino-cli\arduino-cli.exe`, com o core `arduino:avr`.
-Ele não está no PATH; ou use o caminho completo, ou rode uma vez:
+Pelo **Arduino IDE**: abra `cronometro-arduino.ino` — a pasta tem que se chamar
+`cronometro-arduino`, como o sketch —, escolha a placa (*Arduino Uno* ou
+*Arduino Nano*) e a porta, e clique em Upload.
 
-```powershell
-[Environment]::SetEnvironmentVariable('Path', $env:Path + ';C:\Users\Leonardo\arduino-cli', 'User')
+Pelo **arduino-cli**, de dentro da pasta do sketch:
+
+```bash
+arduino-cli core install arduino:avr
+arduino-cli compile -b arduino:avr:uno --warnings all --output-dir build .
+arduino-cli upload -b arduino:avr:uno -p COM3 .
 ```
 
-Compilar (de dentro da pasta `cronometro-arduino`):
+Troque `COM3` pela porta que aparece em `arduino-cli board list`. Para Nano,
+use `arduino:avr:nano` (clone com bootloader antigo:
+`arduino:avr:nano:cpu=atmega328old`). Com o `--output-dir build`, o
+[wokwi.toml](wokwi.toml) também passa a funcionar na extensão do VS Code.
 
-```powershell
-& "C:\Users\Leonardo\arduino-cli\arduino-cli.exe" compile -b arduino:avr:uno --warnings all --output-dir build .
-```
-
-Gravar (troque a porta pela que aparecer em `arduino-cli board list`):
-
-```powershell
-& "C:\Users\Leonardo\arduino-cli\arduino-cli.exe" upload -b arduino:avr:uno -p COM3 .
-```
-
-Para Nano, troque `arduino:avr:uno` por `arduino:avr:nano` (se a placa for
-clone com bootloader antigo: `arduino:avr:nano:cpu=atmega328old`).
-
-Pelo **Arduino IDE** funciona igual: abra a pasta, escolha a placa, Upload.
-
-**Ocupação medida** (compilado, não estimado): programa **9202 bytes**,
-28 % dos 32 KB do UNO (29 % dos 30 KB do Nano, que tem bootloader maior);
-variáveis globais **465 bytes**, 22 % da RAM, sobrando 1583 bytes. Cabe com
-muita folga.
+**Ocupação medida** (compilado, não estimado): programa **9252 bytes**, 28 %
+dos 32 KB do UNO (29 % dos 30 KB do Nano, que tem bootloader maior);
+variáveis globais **465 bytes**, 22 % da RAM. Cabe com muita folga.
 
 ## Ligações
 

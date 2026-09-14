@@ -21,6 +21,9 @@ sobra para dar errado na bancada é fiação e sensor, não lógica.
 & "C:\Program Files\Raspberry Pi\Pico SDK v1.5.1\ninja\ninja.exe" -C build
 ```
 
+> Veio do zip do release? A pasta `build/` já traz o firmware padrão
+> compilado: dá para pular este passo enquanto não mexer no código.
+
 2. Abra `diagram.json`.
 3. `Ctrl+Shift+P` → **Wokwi: Start Simulator**.
 

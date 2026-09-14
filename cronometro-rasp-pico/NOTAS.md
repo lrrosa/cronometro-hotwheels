@@ -368,7 +368,7 @@ em modo headless renderizou recortes em PNG sem instalar nada):
 ### Repositório
 
 A pasta do Pico virou `cronometro-rasp-pico`, e o alvo do CMake mudou junto,
-para o `.uf2` ter o nome da pasta. O repositório vai se chamar
+para o `.uf2` ter o nome da pasta. O repositório se chama
 `cronometro-hotwheels`, com licença GPL-3.0-or-later. Ficam **fora** dele,
 pelo `.gitignore` da raiz, as fotos de anúncio em `módulos/` e as capturas do
 vídeo original — são de terceiros. O `projeto.txt`, as notas iniciais com os links do
@@ -382,6 +382,51 @@ que gera um desenho é software, mas o desenho que ele produz é hardware — po
 isso os SVGs levam `SPDX-License-Identifier: CERN-OHL-S-2.0` e o carimbo dos
 esquemas repete a linha de licença dos esquemas do Pong.
 
+## Release v1.0.0 (set/2026)
+
+**O carimbo do KiCad estourou a moldura.** As linhas de comentário do
+carimbo (`comment 1..4`) não quebram nem encolhem: o formato de folha padrão
+tem 108 mm de largura útil e texto de 1,5 mm, e as primeiras linhas, de 88 e
+99 caracteres, passaram da borda direita da folha. ERC e netlist não veem
+isso; só o render. Hoje cada linha tem no máximo 62 caracteres (cabem uns
+70) e o gerador recusa texto maior antes de gravar.
+
+**Um zip por placa**, montado por `tools/empacotar_release.py` a partir de
+um commit limpo. As decisões:
+
+- **Quatro `.uf2` prontos no Pico**, um para cada combinação de
+  `DISPLAY_PONTO_DECIMAL` e `SENSOR_NIVEL_CARRO`: são as duas coisas que só
+  se descobrem com o hardware na mão, e quem monta não quer instalar o SDK
+  por causa delas. Para compilar as variantes sem editar o `config.h`, os
+  dois `#define` ganharam `#ifndef` e o CMake ganhou `-DPONTO_DECIMAL` e
+  `-DSENSOR_NIVEL`. O script para se duas variantes derem o mesmo binário —
+  seria sinal de que a opção não chegou ao compilador. Conferido à mão
+  também: sem opção nenhuma o `.uf2` sai idêntico, byte a byte, ao compilado
+  com `0`/`0`.
+- **No Arduino, só o `.ino`**: quem monta tem o IDE, e as duas opções são uma
+  linha no topo do arquivo. O zip abre numa pasta `cronometro-arduino` porque
+  o IDE só abre um sketch dentro de pasta de mesmo nome.
+- **`build/` vai junto**, com o binário padrão no caminho que o `wokwi.toml`
+  espera: o simulador do VS Code roda direto do zip, sem compilar nada.
+- **Diagrama de fiação também em PNG** (2×): nem todo visualizador abre SVG,
+  e é o arquivo que se leva para a bancada.
+- **Links:** cada zip mantém a estrutura da pasta da placa, então os links
+  relativos continuam valendo. O que apontaria para fora (a outra placa, as
+  notas, os geradores) vira URL do GitHub fixada na tag, e o script falha se
+  sobrar link relativo para arquivo que não está no zip. A `bom.md`, que mora
+  na pasta do Pico, vai copiada para o zip do Arduino.
+- **Caminhos desta máquina** saíram dos documentos do Arduino (onde o
+  `arduino-cli` está instalado aqui): valiam para esta bancada, não para quem
+  baixa o projeto.
+- **O script não roda com o Python da Microsoft Store.** Esse Python roda
+  empacotado, e os processos filhos dele enxergam uma cópia privada do
+  `AppData`: o `arduino-cli` chamado pelo script não via o core `arduino:avr`
+  instalado em `Arduino15`, saía baixando índices para uma pasta vazia e
+  falhava. O Python que vem com o Pico SDK é comum e serve. O script confere o
+  core antes de compilar e explica isso quando falta. Outra do mesmo tipo: o
+  `msedge.exe` headless volta na hora e o PNG só aparece depois, então o script
+  espera o arquivo parar de crescer e confere a dimensão no cabeçalho do PNG.
+
 ## Estado atual
 
 - **RP2040:** compila limpo no Pico SDK 1.5.1 (`build/cronometro-rasp-pico.uf2`).
@@ -391,6 +436,8 @@ esquemas repete a linha de licença dos esquemas do Pong.
   luz. As duas rodaram no VS Code antes da troca de sensor.
 - **Desenhos:** diagramas de fiação em SVG e esquemas do KiCad 10 das duas
   placas, com ERC 0/0 e netlist conferido.
+- **Publicado** em https://github.com/lrrosa/cronometro-hotwheels, com o
+  release v1.0.0: um zip por placa.
 - Nada montado em hardware.
 
 ## Próximos passos prováveis
@@ -405,5 +452,4 @@ esquemas repete a linha de licença dos esquemas do Pong.
 4. Mesmo carro, cinco descidas na mesma raia, e olhar a dispersão no log
    serial. Depois trocar os sensores de raia, para separar viés de sensor de
    atrito de raia.
-5. Publicar no GitHub como `cronometro-hotwheels`.
-6. Só então o painel e a fiação definitiva.
+5. Só então o painel e a fiação definitiva.

@@ -50,7 +50,9 @@ extern const uint8_t PIN_TM_DIO[N_PISTAS];
  * com a prova armada, segurar um carrinho sobre o sensor da pista 1 por
  * 2 s tem que disparar a corrida demo (ver GESTO_DEMO_MS).
  */
+#ifndef SENSOR_NIVEL_CARRO      /* o release compila variantes com -D */
 #define SENSOR_NIVEL_CARRO 0
+#endif
 
 /*
  * Nivel do pino de largada com a porta ABERTA.
@@ -132,7 +134,9 @@ extern const uint8_t PIN_TM_DIO[N_PISTAS];
  *
  * Acima de 10 s o separador acende nos dois casos -- ver disp_tempo().
  */
+#ifndef DISPLAY_PONTO_DECIMAL   /* o release compila variantes com -D */
 #define DISPLAY_PONTO_DECIMAL 0
+#endif
 
 /* ------------------------------------------------------------------- */
 /* Corrida demo (simulador e bancada)                                   */

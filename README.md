@@ -54,6 +54,31 @@ próprio KiCad, conferindo rede por rede contra a pinagem do firmware — o ERC
 sozinho só prova regra elétrica; é o netlist que prova que cada fio chega no
 pino certo. Os dois saem com erro se a conferência falhar.
 
+## Pacotes de release
+
+Cada [release](https://github.com/lrrosa/cronometro-hotwheels/releases) traz
+um zip por placa, com o que interessa a quem vai montar: `LEIA-ME.txt` com a
+montagem em ordem, fiação em SVG e PNG, lista de material, pinagem, esquema
+em PDF e o projeto KiCad, o simulador já com o binário, o código e as
+licenças. O do Pico traz também quatro `.uf2` prontos — ponto decimal ×
+polaridade do sensor —, para gravar sem instalar o SDK.
+
+Os zips saem de um script, a partir de um commit limpo:
+
+```bash
+python tools/empacotar_release.py 1.0.0
+```
+
+Ele compila as quatro variantes do Pico e o sketch do Arduino, renderiza os
+diagramas em PNG pelo Edge headless, troca os links que apontariam para fora
+do pacote por URLs do GitHub fixadas na tag e confere que todo link relativo
+que sobrou existe dentro do zip.
+
+Precisa do Pico SDK 1.5.1, do `arduino-cli` com o core `arduino:avr` e do
+Edge. No Windows, rode com um Python que **não** seja o da Microsoft Store:
+os processos filhos dele não enxergam o core instalado do `arduino-cli`. O
+Python que vem com o Pico SDK serve.
+
 ## Licença
 
 Projeto com **licença dupla**, a mesma do

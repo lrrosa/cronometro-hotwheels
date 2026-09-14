@@ -214,7 +214,16 @@ class Folha:
         self.nc(x, y)
 
     # ------------------------------------------------------------- saida
+    # O carimbo do formato de folha padrao do KiCad (pagelayout_default) tem
+    # 108 mm de largura, texto de 1,5 mm e 4 linhas de comentario. Cabem uns
+    # 70 caracteres por linha, menos com muita maiuscula; a primeira versao
+    # usou 88 e 99 e estourou a moldura da folha. O gerador recusa antes.
+    MAX_COMENTARIO, MAX_LINHAS = 62, 4
+
     def salvar(self, caminho):
+        assert len(self.comentarios) <= self.MAX_LINHAS, "comentarios demais para o carimbo"
+        for c in self.comentarios:
+            assert len(c) <= self.MAX_COMENTARIO, f"comentario longo demais para o carimbo ({len(c)}): {c}"
         libs = "\n".join(self.libs[k] for k in sorted(self.libs))
         coment = "\n".join(f"\t\t(comment {i+1} {q(c)})" for i, c in enumerate(self.comentarios))
         s = (f'(kicad_sch\n\t(version 20250610)\n\t(generator "gen_kicad_sch")\n'
@@ -293,9 +302,10 @@ def placa_generica(f, U, X, Y, mapa_nome, mapa_num, power_direto, pular):
 # ---------------------------------------------------------------- RP2040
 def gera_pico():
     f = Folha("cronometro-rasp-pico", "Cronometro Hot Wheels - 6 pistas (RP2040)", [
-        "Hardware licenciado sob CERN-OHL-S-2.0 (SPDX: CERN-OHL-S-2.0) - ver LICENSE-HARDWARE.txt",
-        "Tudo em 3,3 V. Os nomes no simbolo sao GPIO; na RP2040 roxa a posicao do furo muda: docs/pinout.md",
-        "Sensores: modulo TCRT5000, saida D0 (ativa em 0 com carro). A0 nao usado.",
+        "Hardware sob CERN-OHL-S-2.0 - ver LICENSE-HARDWARE.txt",
+        "Sensor: D0 ativo em 0 com carro; A0 do modulo nao usado.",
+        "Nomes = GPIO. Na RP2040 roxa o furo muda: docs/pinout.md",
+        "Tudo em 3,3 V: displays e sensores (TCRT5000, saida D0).",
     ])
     U = simbolo_lib("MCU_Module", "RaspberryPi_Pico")
     X, Y = 127.0, 132.08
@@ -320,9 +330,10 @@ def gera_pico():
 # --------------------------------------------------------------- Arduino
 def gera_uno():
     f = Folha("cronometro-arduino", "Cronometro Hot Wheels - 6 pistas (Arduino UNO/Nano)", [
-        "Hardware licenciado sob CERN-OHL-S-2.0 (SPDX: CERN-OHL-S-2.0) - ver LICENSE-HARDWARE.txt",
-        "Tudo em 5 V. Sensores OBRIGATORIAMENTE em A0..A5 (PCINT1); largada em D2 (INT0)",
-        "Sensores: modulo TCRT5000, saida D0 (ativa em 0 com carro). A0 do modulo nao usado.",
+        "Hardware sob CERN-OHL-S-2.0 - ver LICENSE-HARDWARE.txt",
+        "Sensor: D0 ativo em 0 com carro; A0 do modulo nao usado.",
+        "Sensores em A0..A5, nesta ordem (PCINT1). Largada em D2.",
+        "Tudo em 5 V: displays e sensores (TCRT5000, saida D0).",
     ])
     U = simbolo_lib("MCU_Module", "Arduino_UNO_R3")
     X, Y = 127.0, 132.08

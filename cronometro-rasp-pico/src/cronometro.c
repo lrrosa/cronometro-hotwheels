@@ -332,7 +332,7 @@ static void tick_resultado(void)
         return;
     }
     /* Se a porta ja estava fechada (caiu durante a prova, por exemplo),
-       rearma sozinho depois de um ciclo inteiro de resultado. */
+       rearma sozinho depois de dois ciclos inteiros de resultado. */
     if (!porta_aberta() &&
         agora - t_resultado_us >= RESULTADO_MIN_MS * 1000ull)
         rearma();

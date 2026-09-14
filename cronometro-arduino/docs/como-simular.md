@@ -24,14 +24,17 @@ o `.hex` do avr-gcc. O que faltava aqui era quem produzisse o `.hex`, e é
 isso que o `arduino-cli` resolve. O `wokwi.toml` é só o bilhete dizendo onde
 o binário está.
 
-O `arduino-cli` e o core `arduino:avr` **já estão instalados** nesta
-máquina. Então:
+É preciso o `arduino-cli` com o core AVR instalado
+(`arduino-cli core install arduino:avr`). Então:
 
 1. Compile, de dentro da pasta `cronometro-arduino`:
 
-```powershell
-& "C:\Users\Leonardo\arduino-cli\arduino-cli.exe" compile -b arduino:avr:uno --warnings all --output-dir build .
+```bash
+arduino-cli compile -b arduino:avr:uno --warnings all --output-dir build .
 ```
+
+> Veio do zip do release? A pasta `build/` já traz o `.hex` compilado:
+> dá para pular este passo enquanto não mexer no código.
 
 2. Abra **a pasta `cronometro-arduino` como raiz do workspace** do VS Code
    (não a pasta de cima — os caminhos do `wokwi.toml` são relativos à raiz).

@@ -9,9 +9,10 @@
 		(date "2026-09-12")
 		(rev "1")
 		(company "Leonardo Roman da Rosa")
-		(comment 1 "Hardware licenciado sob CERN-OHL-S-2.0 (SPDX: CERN-OHL-S-2.0) - ver LICENSE-HARDWARE.txt")
-		(comment 2 "Tudo em 3,3 V. Os nomes no simbolo sao GPIO; na RP2040 roxa a posicao do furo muda: docs/pinout.md")
-		(comment 3 "Sensores: modulo TCRT5000, saida D0 (ativa em 0 com carro). A0 nao usado.")
+		(comment 1 "Hardware sob CERN-OHL-S-2.0 - ver LICENSE-HARDWARE.txt")
+		(comment 2 "Sensor: D0 ativo em 0 com carro; A0 do modulo nao usado.")
+		(comment 3 "Nomes = GPIO. Na RP2040 roxa o furo muda: docs/pinout.md")
+		(comment 4 "Tudo em 3,3 V: displays e sensores (TCRT5000, saida D0).")
 	)
 	(lib_symbols
 (symbol "Connector_Generic:Conn_01x04"

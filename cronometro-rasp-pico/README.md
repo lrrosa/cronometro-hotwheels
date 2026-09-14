@@ -76,6 +76,17 @@ cmake -G Ninja -B build
 Saída: `build/cronometro-rasp-pico.uf2`. Para gravar, segure BOOTSEL, ligue
 o USB e copie o `.uf2` para a unidade `RPI-RP2`.
 
+`DISPLAY_PONTO_DECIMAL` e `SENSOR_NIVEL_CARRO` também podem ser escolhidos na
+configuração do CMake, sem editar o `config.h` — é assim que o release gera
+os quatro `.uf2` prontos:
+
+```powershell
+cmake -G Ninja -B build -DPONTO_DECIMAL=1 -DSENSOR_NIVEL=1
+```
+
+As opções ficam no cache do CMake. Para voltar ao que diz o `config.h`, passe
+as duas vazias (`-DPONTO_DECIMAL= -DSENSOR_NIVEL=`) ou apague a pasta `build`.
+
 ## Ligações
 
 Resumo — a tabela completa, com a posição física do furo em cada módulo

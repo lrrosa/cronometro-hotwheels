@@ -34,4 +34,15 @@ target_link_libraries(cronometro-rasp-pico
 pico_enable_stdio_uart(cronometro-rasp-pico 1)
 pico_enable_stdio_usb(cronometro-rasp-pico 1)
 
+# Variantes do release (tools/empacotar_release.py): 0 ou 1 sobrescrevem os
+# padroes de src/config.h sem editar o arquivo. Vazio = vale o config.h.
+set(PONTO_DECIMAL "" CACHE STRING "DISPLAY_PONTO_DECIMAL (0/1)")
+set(SENSOR_NIVEL "" CACHE STRING "SENSOR_NIVEL_CARRO (0/1)")
+if(NOT PONTO_DECIMAL STREQUAL "")
+    target_compile_definitions(cronometro-rasp-pico PRIVATE DISPLAY_PONTO_DECIMAL=${PONTO_DECIMAL})
+endif()
+if(NOT SENSOR_NIVEL STREQUAL "")
+    target_compile_definitions(cronometro-rasp-pico PRIVATE SENSOR_NIVEL_CARRO=${SENSOR_NIVEL})
+endif()
+
 pico_add_extra_outputs(cronometro-rasp-pico)

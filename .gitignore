@@ -1,5 +1,6 @@
 # Compilacao (as duas versoes)
 build/
+dist/
 *.uf2
 *.elf
 *.hex
